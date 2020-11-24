@@ -24,22 +24,27 @@ A sua volta i Macrosettori sono suddivisi per Aree definite dal Consorzio Univer
 
 Una rappresentazione completa di tutti i livelli è visibile in questa [pagina](https://it.wikipedia.org/wiki/Settore_scientifico-disciplinare).
 
+### Collegamento ontologia HER
+Il vocabolario nella sua versione 0.2 è stato allineato alla relativa ontologia HER (Higher Eduction & Research)
+
 ### Allineamento
 
-Il vocabolario controllato è inoltre allineato con il vocabolario [subject-disciplines](https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-culture/subject-disciplines).
+Il vocabolario controllato è inoltre allineato con i seguenti vocabolari:
+[subject-disciplines](https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-culture/subject-disciplines)
+[fields-of-research-development](https://github.com/italia/daf-ontologie-vocabolari-controllati/tree/master/VocabolariControllati/classifications-for-her/fields-of-research-development)
 
-L'allineamento è relativo a:
+Il vocabolario è inoltre allineato con il vocabolario [ERC panel del framework programme Horizon2020](https://w3id.org/italia/controlled-vocabulary/classifications-for-her/erc-panel-h2020-fp). Gli allineamenti in questo caso sono da ritenersi tuttavia non ufficiali ma come lavoro nato nel contesto del progetto Toscana Open Research e portati a livello nazionale nei vari vocabolari controllati della rete OntoPiA.
+
+L'allineamento al subject-disciplines è relativo a:
 
 * 9 Aree CUN
 * 19 Macrosettori
 * 90 Settori Concorsuali
 * 329 Settori scientifico disciplinari
 
-
-L'allineamento è basato sulla perfetta corrispondenza della proprietà *skos:prefLabel* in lingua italiana. 
+L'allineamento è basato sulla perfetta corrispondenza della proprietà *skos:prefLabel* in lingua italiana.
 
 **Esempio:**
-
 
 `https://w3id.org/italia/controlled-vocabulary/classifications-for-universities/academic-disciplines/SSD-AGR-05
 skos:relatedMatch <https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/subject-disciplines/008-006`
